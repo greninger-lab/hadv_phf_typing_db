@@ -15,7 +15,17 @@ References were obtained from [ICTV](https://ictv.global/report/chapter/adenovir
 - AC_000008 replaces M73260 for HAdV-C5 (AC_000008 and M73260 are identical in the PHF regions, but AC_000008 is the GenBank RefSeq and has annotaions for PHF)
 - HQ910407 replaces AF108105 for HAdV-D17 (HQ910407 has annotation for hexon and is the updated sequence for HAdV-D17 according to [Seto et al.](https://journals.asm.org/doi/10.1128/JVI.06051-11))
 
-Note:
+## Note
 - The sequence headers in the fasta files come in the format of >reference-accession_type_region, e.g. >AF534906_HAdV-C1_hexon.
-- HAdV F40, F41, and G52 have two fiber sequences, long fiber and short fiber. It is their long fiber sequences that are used in this database.
+- HAdV F40, F41, and G52 have two fiber sequences, long fiber and short fiber. It is their *long fiber* sequences that are used in this database.
 - The PHF sequences are HAdV-C108 (P1H2F2) and HAdV-D90 (P33H27F67) are available so they can be typed, but not for HAdV-D112 (P112H112F67) because its reference penton and hexon sequences are unavailable.
+
+## Usage
+This is only a BLAST database and the full typing workflow is not automated. However, only some simple bash scripting is needed to use this database. For example, with BLAST and the PHF databases installed, you can use the following command in a CLI to find the penton sequence (similarly for hexon and fiber sequences) that shares the highest nucleotide identity with the input sequence:
+
+	blastn -query input.fasta -db blastn_db_penton/hadv_types_ref_penton.fa -outfmt 6 -max_target_seqs 1 -evalue 1e-5
+
+You can then use additional bash scripting to parse and chain BLAST outputs together to your preference.
+
+## Contact
+If you have any feedback please raise an issue on GitHub or email aseree@uw.edu.
