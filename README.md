@@ -18,7 +18,7 @@ References were obtained from [ICTV](https://ictv.global/report/chapter/adenovir
 
 ## Note
 - The sequence headers in the fasta files come in the format of >reference-accession_type_region, e.g. >AF534906_HAdV-C1_hexon.
-- HAdV F40, F41, and G52 have two fiber sequences, long fiber and short fiber. It is their *long fiber* sequences that are used in this database.
+- HAdV F40 (L19443), F41 (DQ315364), and G52 (DQ923122) have [two different types of fibers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7918131/), long fibers and short fibers. Their *long fiber* sequences are used in this database.
 - The PHF sequences for HAdV-C108 (P1H2F2) and HAdV-D90 (P33H27F67) are available so they can be typed, but not for HAdV-D112 (P112H112F67) because its unique penton and hexon reference sequences are unavailable.
 
 ## Usage
