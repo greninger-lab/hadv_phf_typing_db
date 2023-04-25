@@ -1,4 +1,5 @@
 # Human adenovirus typing database
+## Background
 Typing of human adenovirus (HAdV) is based on [nucleotide identity](https://journals.asm.org/doi/10.1128/JVI.00354-11) in the penton, hexon and fiber (PHF) regions. There are 113 human adenovirus types. 52 of them are non-recombinant, including 51 [original types](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7171713/) and [HAdV-G52](https://journals.asm.org/doi/full/10.1128/JVI.02650-06).
 61 of them are recombinant, of which the references for HAdV-D112, HAdV-C108, and HAdV-D90 are currently unavailable.
 This database includes the penton, hexon, and fiber sequences for all 52 non-recombinant human adenovirus types, as well as any unique penton, hexon, and fiber sequences for human adenovirus 53 and above.
