@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "hadv_types_ref_penton_aa.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "hadv_types_ref_penton_aa.fasta",
+  "number-of-letters": 39889,
+  "number-of-sequences": 76,
+  "last-updated": "2023-04-25T16:46:00",
+  "number-of-volumes": 1,
+  "bytes-total": 106904,
+  "bytes-to-cache": 40710,
+  "files": [
+    "hadv_types_ref_penton_aa.fasta.pdb",
+    "hadv_types_ref_penton_aa.fasta.phr",
+    "hadv_types_ref_penton_aa.fasta.pin",
+    "hadv_types_ref_penton_aa.fasta.pog",
+    "hadv_types_ref_penton_aa.fasta.pos",
+    "hadv_types_ref_penton_aa.fasta.pot",
+    "hadv_types_ref_penton_aa.fasta.psq",
+    "hadv_types_ref_penton_aa.fasta.ptf",
+    "hadv_types_ref_penton_aa.fasta.pto"
+  ]
+}
