@@ -29,4 +29,4 @@ This is only a BLAST database and the full typing workflow is not automated. How
 You can then use additional bash scripting to parse and chain BLAST outputs for other typing regions together to your desired preference.
 
 ## Contact
-If you have any feedback please raise an issue on GitHub or email aseree@uw.edu.
+If you have any feedback please raise an issue on GitHub or email agrening@uw.edu.
